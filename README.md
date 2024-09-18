@@ -6,5 +6,7 @@ Feel free to clone and use to start building an AtScale model.
 
 Happy modeling!
 
+foo
+
 --
 The AtScale training team

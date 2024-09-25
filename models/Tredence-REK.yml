@@ -8,7 +8,7 @@ dimensions:
   - Weight
 metrics:
   - unique_name: m_factinternetsales_salesamount_sum
-  - unique_name: m_factinternetsales_salesamount_sum (1)
+  - unique_name: m_factinternetsales_salesamount_avg
   - unique_name: m_factinternetsales_orderquantity_sum
   - unique_name: m_factinternetsales_unitprice_sum
   - unique_name: m_factinternetsales_taxamt_sum

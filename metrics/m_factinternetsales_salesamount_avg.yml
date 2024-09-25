@@ -1,4 +1,4 @@
-unique_name: m_factinternetsales_salesamount_sum (1)
+unique_name: m_factinternetsales_salesamount_avg
 object_type: metric
 label: Sales Amount - AVG
 calculation_method: average

@@ -1,0 +1,6 @@
+unique_name: m_factinternetsales_counter_sum
+object_type: metric
+label: Total Rows
+calculation_method: sum
+column: counter
+dataset: factinternetsales

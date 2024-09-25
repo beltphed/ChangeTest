@@ -1,0 +1,28 @@
+unique_name: Tredence-REK
+object_type: model
+label: Tredence-REK
+dimensions:
+  - Color
+  - Size
+  - Style
+  - Weight
+metrics:
+  - unique_name: m_factinternetsales_salesamount_sum
+  - unique_name: m_factinternetsales_salesamount_sum (1)
+  - unique_name: m_factinternetsales_orderquantity_sum
+  - unique_name: m_factinternetsales_unitprice_sum
+  - unique_name: m_factinternetsales_taxamt_sum
+  - unique_name: m_factinternetsales_customerkey_sum
+  - unique_name: m_factinternetsales_customerkey_sum (1)
+  - unique_name: m_factinternetsales_counter_sum
+relationships:
+  - unique_name: >-
+      factinternetsales_orderdatekey_to_dim_date_day_dimension_dim_date_day_dimension
+      Level
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: dim_date_day_dimension
+      level: dim_date_day_dimension Level
